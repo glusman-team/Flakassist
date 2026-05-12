@@ -1,6 +1,6 @@
 {
   description = ''
-    Everything You Need To Run Tablassert
+    Everything You Need To Run Tablassist
     All in a Nix Flake - Using Nix Direnv
   '';
   inputs = {
