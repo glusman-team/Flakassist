@@ -12,7 +12,7 @@
     inputs.flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [ "x86_64-linux" ];
       perSystem =
-        { pkgs }:
+        { pkgs, lib }:
         {
           devShells.default = pkgs.mkShell {
             env = {
@@ -30,6 +30,9 @@
               awscli2
               bun
             ];
+            shellHook = ''
+              export LD_LIBRARY_PATH="${lib.makeLibraryPath [ pkgs.gcc-unwrapped.lib ]}:$LD_LIBRARY_PATH"
+            '';
           };
         };
     };
