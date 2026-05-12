@@ -24,15 +24,20 @@
             };
             packages = with pkgs; [
               playwright-driver.browsers
+              glibcLocales
               nodejs_24
               python314
               opencode
               awscli2
+              kitty
               bun
               uv
             ];
             shellHook = ''
               export LD_LIBRARY_PATH="${lib.makeLibraryPath [ pkgs.gcc-unwrapped.lib ]}:$LD_LIBRARY_PATH"
+              export TERMINFO_DIRS="${pkgs.kitty.terminfo}/share/terminfo:$TERMINFO_DIRS"
+              export LOCALE_ARCHIVE="${pkgs.glibcLocales}/lib/locale/locale-archive"
+              export COLORTERM=''${COLORTERM:-truecolor}
               export PATH="$HOME/.local/bin:$PATH"
             '';
           };
