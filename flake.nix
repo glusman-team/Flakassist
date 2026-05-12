@@ -12,7 +12,7 @@
     inputs.flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [ "x86_64-linux" ];
       perSystem =
-        { pkgs, lib }:
+        { pkgs, lib, ... }:
         {
           devShells.default = pkgs.mkShell {
             env = {
