@@ -29,9 +29,11 @@
               opencode
               awscli2
               bun
+              uv
             ];
             shellHook = ''
               export LD_LIBRARY_PATH="${lib.makeLibraryPath [ pkgs.gcc-unwrapped.lib ]}:$LD_LIBRARY_PATH"
+              export PATH="$HOME/.local/bin:$PATH"
             '';
           };
         };
