@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [
+    "@howaboua/opencode-planning-toolkit@latest",
+    "@tarquinen/opencode-dcp@latest",
+    "opencode-mem",
+    "@skyeav/tablassist"
+  ],
+  "mcp": {
+    "playwright": {
+      "type": "local",
+      "enabled": true,
+      "command": ["npx", "@playwright/mcp@latest"]
+    }
+  }
+}
