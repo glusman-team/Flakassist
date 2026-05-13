@@ -32,8 +32,8 @@
     },
     "openrouter": {
       "models": {
-        "inclusionai/ring-2.6-1t:free": {
-          "name": "Ring 2.6 1T (free)",
+        "nvidia/nemotron-3-super-120b-a12b:free": {
+          "name": "Nemotron 3 Super 120B A12B (free)",
           "tool_call": true,
           "reasoning": true
         }
