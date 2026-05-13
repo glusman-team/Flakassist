@@ -24,7 +24,7 @@
         "mradermacher/MiniMax-M2.7-REAP-172B-A10B-BF16-i1-GGUF:IQ2_M": {
           "name": "MiniMax M2.7 REAP 172B A10B IQ2_M",
           "limit": {
-            "context": 196608,
+            "context": 84000,
             "output": 8192
           }
         }
