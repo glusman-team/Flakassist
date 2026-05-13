@@ -21,17 +21,10 @@
         "baseURL": "http://127.0.0.1:8080/v1"
       },
       "models": {
-        "unsloth/Qwen3.6-35B-A3B-GGUF:UD-Q4_K_XL": {
-          "name": "Qwen 3.6 35B A3B Q4_K_XL",
+        "mradermacher/Step-3.5-Flash-REAP-128B-A11B-i1-GGUF:IQ3_M": {
+          "name": "Step 3.5 Flash REAP 128B A11B IQ3_M",
           "limit": {
             "context": 262144,
-            "output": 8192
-          }
-        },
-        "unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF:Q2_K_XL": {
-          "name": "Nemotron 3 Super 120B A12B Q2_K_XL",
-          "limit": {
-            "context": 131072,
             "output": 8192
           }
         }
@@ -41,11 +34,6 @@
       "models": {
         "inclusionai/ring-2.6-1t:free": {
           "name": "Ring 2.6 1T (free)",
-          "tool_call": true,
-          "reasoning": true
-        },
-        "poolside/laguna-m.1:free": {
-          "name": "Poolside Laguna M.1 (free)",
           "tool_call": true,
           "reasoning": true
         }
