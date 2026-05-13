@@ -21,8 +21,8 @@
         "baseURL": "http://127.0.0.1:8080/v1"
       },
       "models": {
-        "mradermacher/Step-3.5-Flash-REAP-128B-A11B-i1-GGUF:IQ3_M": {
-          "name": "Step 3.5 Flash REAP 128B A11B IQ3_M",
+        "mradermacher/MiniMax-M2.7-REAP-172B-A10B-BF16-i1-GGUF:IQ2_M": {
+          "name": "MiniMax M2.7 REAP 172B A10B IQ2_M",
           "limit": {
             "context": 196608,
             "output": 8192
