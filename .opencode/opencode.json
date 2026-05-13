@@ -24,7 +24,7 @@
         "mradermacher/Step-3.5-Flash-REAP-128B-A11B-i1-GGUF:IQ3_M": {
           "name": "Step 3.5 Flash REAP 128B A11B IQ3_M",
           "limit": {
-            "context": 262144,
+            "context": 196608,
             "output": 8192
           }
         }
