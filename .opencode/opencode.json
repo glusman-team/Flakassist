@@ -16,7 +16,7 @@
   "provider": {
     "llama.cpp": {
       "npm": "@ai-sdk/openai-compatible",
-      "name": "llama-server (localhost:8080)",
+      "name": "llama-server (8080)",
       "options": {
         "baseURL": "http://127.0.0.1:8080/v1"
       },
