@@ -43,6 +43,11 @@
           "name": "Ring 2.6 1T (free)",
           "tool_call": true,
           "reasoning": true
+        },
+        "poolside/laguna-m.1:free": {
+          "name": "Poolside Laguna M.1 (free)",
+          "tool_call": true,
+          "reasoning": true
         }
       }
     }
