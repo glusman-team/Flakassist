@@ -27,6 +27,13 @@
             "context": 262144,
             "output": 8192
           }
+        },
+        "unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF:Q2_K_XL": {
+          "name": "Nemotron 3 Super 120B A12B Q4_K_XL",
+          "limit": {
+            "context": 262144,
+            "output": 8192
+          }
         }
       }
     },
