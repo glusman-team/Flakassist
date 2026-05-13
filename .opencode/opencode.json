@@ -29,6 +29,15 @@
           }
         }
       }
+    },
+    "openrouter": {
+      "models": {
+        "inclusionai/ring-2.6-1t:free": {
+          "name": "Ring2.6 1T (free)",
+          "tool_call": true,
+          "reasoning": true
+        }
+      }
     }
   }
 }
